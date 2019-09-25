@@ -1,4 +1,12 @@
 site_name: afq-docs
 nav:
-    - Home: index.md
+- Home: 'index.md'
+- Bibliography:
+    - 'Diffusion MRI': 'diffusion-mri.md'
+    - 'Machine learning': 'machine-learning.md'
+- About:
+    - 'License': 'license.md'
+    - 'Funding sources': 'funding.md'
+    - 'Related projects' : 'related.md'
 theme: mkdocs
+
