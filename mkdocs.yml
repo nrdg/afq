@@ -1,4 +1,4 @@
 site_name: afq-docs
 nav:
     - Home: index.md
-theme: alabaster
+theme: mkdocs
