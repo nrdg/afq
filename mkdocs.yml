@@ -8,6 +8,8 @@ nav:
     - 'License': 'about/license.md'
     - 'Funding sources': 'about/funding.md'
     - 'Related projects' : 'about/related.md'
+    - Infrastructure:
+      - 'Jupyterhub': 'about/infrastructure/jupyterhub.md'
 theme: mkdocs
 plugins:
   - bibtex:
