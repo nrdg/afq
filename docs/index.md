@@ -17,8 +17,7 @@ provides non-invasive *in vivo* measurements of these connections. These
 measurements have provided compelling evidence that the biophysical properties
 of these connections account for individual variation in many important
 cognitive skills, and they predict clinical symptoms across a variety of
-psychiatric and neurological disorders (reviewed in [@Rokem2017JoVWM,
-@wandell2016clarifying]).
+psychiatric and neurological disorders (reviewed in [@Rokem2017JoVWM] and [@wandell2016clarifying]).
 
 One of the major challenges in analyzing dMRI data is that the details of the 3D
 structure of white matter anatomy varies between individuals. *Tractometry* is a
@@ -40,3 +39,5 @@ exploration of the results through interactive visualizations. This is
 particularly important as the research community is developing large datasets.
 
 
+
+\bibliography
