@@ -1,2 +1,2 @@
 mkdocs
--e git://github.com/darwindarak/mdx_bib.git
+-e git://github.com/darwindarak/mdx_bib.git#egg=mdx_bib
