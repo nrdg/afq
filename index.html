@@ -82,11 +82,6 @@
                         </ul>
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
                             <li class="disabled">
                                 <a rel="next" >
                                     <i class="fa fa-arrow-left"></i> Previous
@@ -106,6 +101,7 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#overview">Overview</a></li>
+            <li><a href="#aims-of-these-projects">Aims of these projects</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
@@ -114,7 +110,35 @@
 <p>This website documents the AFQ projects:</p>
 <p><a href="https://github.com/richford/AFQ-Insight">AFQ-Insight</a></p>
 <p><a href="https://yeatmanlab.github.io/pyAFQ/">pyAFQ</a></p>
-<p><a href="https://yeatmanlab.github.io/AFQ-Browser/">AFQ-Browser</a></p></div>
+<p><a href="https://yeatmanlab.github.io/AFQ-Browser/">AFQ-Browser</a></p>
+<h2 id="aims-of-these-projects">Aims of these projects</h2>
+<p>Human brain white matter contains the long-range connections between different
+brain regions. Diffusion MRI (dMRI) is a powerful imaging technology that
+provides non-invasive <em>in vivo</em> measurements of these connections. These
+measurements have provided compelling evidence that the biophysical properties
+of these connections account for individual variation in many important
+cognitive skills, and they predict clinical symptoms across a variety of
+psychiatric and neurological disorders (reviewed in [^1] and [^2]).</p>
+<p>One of the major challenges in analyzing dMRI data is that the details of the 3D
+structure of white matter anatomy varies between individuals. <em>Tractometry</em> is a
+methodology that solves this problem by identifying specific connections in each
+individual's brain, using known anatomical structures as the coordinate system
+to compare measurements across subjects. We are implementing open-source
+software for tractometry and to extract the biophysical properties of major
+brain connections. Based on this tractometry framework, we are also implementing
+novel methods for statistical learning and visualization of the features of
+white matter anatomy that lead to individual differences in the behavioral
+measurements. We will facilitate further exploration of these results and their
+integration with other datasets through web-based visualization tools. Taken
+together these projects provide a comprehensive
+<strong>data science toolbox for end-to-end analysis of dMRI data</strong>: the delineation
+of trajectories of white matter tracts within individual brains, integration of
+measurements across individuals, inferences about the role of connections in
+individual variability of their cognitive abilities and behavior, and
+exploration of the results through interactive visualizations. This is
+particularly important as the research community is developing large datasets.</p>
+<p>[^1]: A. Rokem, H. Takemura, A. Bock, K.S. Scherf, M. Behrmann, B. A. Wandell, H. Fine, I. Bridge, and F. Pestilli. The visual white matter: The application of diffusion MRI and fiber tractography to vision science. <em>Journal of Vision</em>, 17(4):1&ndash;30, 2017. URL: <a href="https://jov.arvojournals.org/article.aspx?articleid=2603187">https://jov.arvojournals.org/article.aspx?articleid=2603187</a>.</p>
+<p>[^2]: Brian A Wandell. Clarifying human white matter. <em>Annual review of neuroscience</em>, 39:103–128, 2016. URL: <a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-neuro-070815-013815">https://www.annualreviews.org/doi/abs/10.1146/annurev-neuro-070815-013815</a>.</p></div>
         </div>
 
         <footer class="col-md-12">
@@ -126,32 +150,8 @@
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
-            </div>
-            <div class="modal-body">
-                <p>
-                    From here you can search these documents. Enter
-                    your search terms below.
-                </p>
-                <form role="form">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
-                    </div>
-                </form>
-                <div id="mkdocs-search-results"></div>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -197,5 +197,5 @@
 
 <!--
 MkDocs version : 1.0.4
-Build Date UTC : 2019-10-08 22:13:46
+Build Date UTC : 2019-10-09 05:05:35
 -->
