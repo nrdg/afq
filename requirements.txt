@@ -1,1 +1,2 @@
 mkdocs
+-e git://github.com/darwindarak/mdx_bib.git
