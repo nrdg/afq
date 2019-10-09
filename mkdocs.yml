@@ -9,7 +9,7 @@ nav:
     - 'Funding sources': 'about/funding.md'
     - 'Related projects' : 'about/related.md'
 theme: mkdocs
-markdown_extensions:
-  - mdx_bib:
-      bibtex_file: bibliography.bib
-      order: 'unsorted'
+plugins:
+  - bibtex:
+      bib_file: "bibliography.bib"
+      cite_style: "pandoc"
