@@ -45,11 +45,11 @@ This will add
 This is a Python library that allows you to interact with AWS. It is highly
 useful, but the API can be a bit inconsistent and confusing.
 
-Documentation: https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
+[Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 
 ### S3FS
 
 This library extends Boto3 to provide a *much nicer* and *more efficient*
 interface to data stored in AWS S3.
 
-Documentation: https://s3fs.readthedocs.io/en/latest/
+[Documentation](https://s3fs.readthedocs.io/en/latest/)
