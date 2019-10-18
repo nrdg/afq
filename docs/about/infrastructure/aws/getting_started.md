@@ -13,8 +13,9 @@ It's a website. You log in and click on buttons.
 
 ### The command-line interface (CLI)
 
-To install the CLI use `pip install awscli` or `conda install -c conda-forge awcli`, or include
-`awcli` in your environment configuration (see also [documentation about Python package management](../installing_python_packages.md))
+To install the CLI use `pip install awscli` or `conda install -c conda-forge awscli`, or include
+`awscli` in your environment configuration
+(see also [documentation about Python package management](../installing_python_packages.md))
 
 The first time that you use the CLI, you should run:
 
