@@ -152,9 +152,9 @@ provided <a href="https://wiki.humanconnectome.org/display/PublicData/How+to+Get
 <h2 id="uploading-data-to-s3">Uploading data to S3</h2>
 <p>Before uploading data to our S3 storage, please organize it in a 'BIDSish'
 format on your local hard-drive. This will look something like this:</p>
-<p>|    <study>
+<pre><code>|    &lt;study&gt;
 |      ├-derivatives
-|            ├-<pipeline>
+|            ├-&lt;pipeline&gt;
 |                ├── sub01
 |                │   ├── sess01
 |                │   │   ├── anat
@@ -188,7 +188,8 @@ format on your local hard-drive. This will look something like this:</p>
 |                       └── dwi
 |                           ├── sub-02_sess-02_dwi.bvals
 |                           ├── sub-02_sess-02_dwi.bvecs
-|                           └── sub-02_sess-02_dwi.nii.gz</p>
+|                           └── sub-02_sess-02_dwi.nii.gz
+</code></pre>
 <p>Where <code>study</code> will be the name of the study and will also be the name we will
 use for the bucket on S3. Instead of <code>pipeline</code> use a name of the preprocessing
 pipeline that you used to process the data. For example, you might use <code>vista</code>,
@@ -199,9 +200,9 @@ dmriprep.</p>
 <p>The command reference for S3 sub-commands is <a href="https://docs.aws.amazon.com/cli/latest/reference/s3/index.html">here</a>.
 Specifically, to create a bucket on S3, you will use the <a href="https://docs.aws.amazon.com/cli/latest/reference/s3/mb.html">mb</a>:
 sub-sub-command:</p>
-<p>aws s3 mb s3://<study></p>
+<p>aws s3 mb s3://study</p>
 <p>This command should be executed once. Then, uploading the data as a sync operation:</p>
-<p>aws s3 sync <path/to/study> s3://<study></p>
+<p>aws s3 sync path/to/study s3://study</p>
 <p>The use of <code>sync</code> (rather than <code>aws s3 cp</code>) means that only new data would be
 uploaded (for example, if repeated calls are made).</p></div>
         </div>
