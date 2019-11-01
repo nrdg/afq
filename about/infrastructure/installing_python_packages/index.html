@@ -7,11 +7,11 @@
         
         
         
-        <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Diffusion MRI - afq-docs</title>
-        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Installing Python packages - afq-docs</title>
+        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -19,8 +19,8 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="../../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -39,7 +39,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="../..">afq-docs</a>
+                    <a class="navbar-brand" href="../../..">afq-docs</a>
                 </div>
 
                 <!-- Expanded navigation -->
@@ -47,35 +47,35 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li >
-                                <a href="../..">Home</a>
+                                <a href="../../..">Home</a>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bibliography <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li class="active">
-    <a href="./">Diffusion MRI</a>
+<li >
+    <a href="../../../bibliography/diffusion-mri/">Diffusion MRI</a>
 </li>
                                     
 <li >
-    <a href="../machine-learning/">Machine learning</a>
+    <a href="../../../bibliography/machine-learning/">Machine learning</a>
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="../../about/license/">License</a>
+    <a href="../../license/">License</a>
 </li>
                                     
 <li >
-    <a href="../../about/funding/">Funding sources</a>
+    <a href="../../funding/">Funding sources</a>
 </li>
                                     
 <li >
-    <a href="../../about/related/">Related projects</a>
+    <a href="../../related/">Related projects</a>
 </li>
                                     
   <li class="dropdown-submenu">
@@ -83,11 +83,11 @@
     <ul class="dropdown-menu">
             
 <li >
-    <a href="../../about/infrastructure/jupyterhub/">Jupyterhub</a>
+    <a href="../jupyterhub/">Jupyterhub</a>
 </li>
             
-<li >
-    <a href="../../about/infrastructure/installing_python_packages/">Installing Python packages</a>
+<li class="active">
+    <a href="./">Installing Python packages</a>
 </li>
             
   <li class="dropdown-submenu">
@@ -95,11 +95,11 @@
     <ul class="dropdown-menu">
             
 <li >
-    <a href="../../about/infrastructure/aws/getting_started/">Getting started</a>
+    <a href="../aws/getting_started/">Getting started</a>
 </li>
             
 <li >
-    <a href="../../about/infrastructure/aws/s3/">Simple Storage Service</a>
+    <a href="../aws/s3/">Simple Storage Service</a>
 </li>
     </ul>
   </li>
@@ -111,12 +111,12 @@
 
                     <ul class="nav navbar-nav navbar-right">
                             <li >
-                                <a rel="next" href="../..">
+                                <a rel="next" href="../jupyterhub/">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li >
-                                <a rel="prev" href="../machine-learning/">
+                                <a rel="prev" href="../aws/getting_started/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -128,11 +128,22 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#installing-python-packages">Installing Python packages</a></li>
+            <li><a href="#conda">Conda</a></li>
+            <li><a href="#virtualenvwrapper">virtualenvwrapper</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-</div>
+<h1 id="installing-python-packages">Installing Python packages</h1>
+<p>The best way to use Python and not go crazy is to use a virtual environment
+manager. These programs make sure that computational environments are kept
+isolated from each other and internally consistent.</p>
+<h2 id="conda">Conda</h2>
+<p>This one is (slightly) preferred, because this is the environment manager we
+use in our <a href="../jupyterhub/">Jupyterhub</a></p>
+<h2 id="virtualenvwrapper">virtualenvwrapper</h2>
+<p>If you are going to use <code>virtualenv</code> you may as well use <a href="https://virtualenvwrapper.readthedocs.io/en/latest/"><code>virtualenvwrapper</code></a>.</p></div>
         </div>
 
         <footer class="col-md-12">
@@ -140,10 +151,10 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "../..",
+            var base_url = "../../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../../js/base.js" defer></script>
+        <script src="../../../js/base.js" defer></script>
 
         <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
     <div class="modal-dialog">
