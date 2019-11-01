@@ -10,6 +10,10 @@ nav:
     - 'Related projects' : 'about/related.md'
     - Infrastructure:
       - 'Jupyterhub': 'about/infrastructure/jupyterhub.md'
+      - 'Installing Python packages': 'about/infrastructure/installing_python_packages.md'
+      - AWS:
+        - 'Getting started': 'about/infrastructure/aws/getting_started.md'
+        - 'Simple Storage Service': 'about/infrastructure/aws/s3.md'
 theme: mkdocs
 plugins:
   - bibtex:
