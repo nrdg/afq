@@ -1,4 +1,4 @@
-site_name: afq-docs
+site_name: Automated Fiber Quantification
 nav:
 - Home: 'index.md'
 - Bibliography:
@@ -14,7 +14,7 @@ nav:
       - AWS:
         - 'Getting started': 'about/infrastructure/aws/getting_started.md'
         - 'Simple Storage Service': 'about/infrastructure/aws/s3.md'
-theme: mkdocs
+theme: gitbook
 plugins:
   - bibtex:
       bib_file: "bibliography.bib"
