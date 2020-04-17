@@ -7,11 +7,12 @@ Wandell BA (2016) Clarifying Human White Matter. Annu Rev Neurosci 39(1):annurev
 ## Automated Fiber Quantification is a method for analyzing white matter tracts
 
 Here is the paper that introducued the method:
-Yeatman JD, Dougherty RF, Myall NJ, Wandell BA, Feldman HMM (2012) Tract profiles of white matter properties: automating fiber-tract quantification. PLoS One 7(11):e49790.
+
+    Yeatman JD, Dougherty RF, Myall NJ, Wandell BA, Feldman HMM (2012) Tract profiles of white matter properties: automating fiber-tract quantification. PLoS One 7(11):e49790.
 
 And here is a more recent paper introducing a browser-based visualization and analysis tool to support reproducibility and data sharing
 
-Yeatman JD, Richie-Halford A, Smith JKJK, Keshavan A, Rokem A (2018) A browser-based tool for visualization and analysis of diffusion MRI data. Nat Commun 9(1):940.
+    Yeatman JD, Richie-Halford A, Smith JKJK, Keshavan A, Rokem A (2018) A browser-based tool for visualization and analysis of diffusion MRI data. Nat Commun 9(1):940.
 
 ## Blogs and tutorials
 
@@ -23,12 +24,41 @@ https://www.imagilys.com/diffusion-tensor-imaging-dti/
 
 # Software tutorials to learn how to analyze diffusion MRI data
 
+## AFQ (MATLAB)
+
 The original matlab version of AFQ comes with tutorials and example data. 
-1) Clone the AFQ repo (and dependencies) here: https://github.com/yeatmanlab/AFQ
+
+1) Clone the AFQ repo (and dependencies listed in README.txt) here: https://github.com/yeatmanlab/AFQ
 2) Read the brief wiki page: https://github.com/yeatmanlab/AFQ/wiki
-3) In a MATLAB terminal type help AFQ_run and then run the example here to process the example dataset
+3) In a MATLAB terminal type `help AFQ_run` and then run the example here to process the example dataset. The example data is included in the repo and the tutorial should run without any additional configuration.
 4) See the AFQ_example totorial as well https://github.com/yeatmanlab/AFQ/blob/master/tutorials/AFQ_example.m
 5) See the Group Comparison example https://github.com/yeatmanlab/AFQ/blob/master/tutorials/AFQ_example_GroupComparison.m
 
+#pyAFQ
+
+All new development is occuring on pyAFQ which leveraged the [Diffusion Imaging in Python (DIPY)](https://dipy.org/) package to provide a much more flexible and extensible version of AFQ. DIPY also has an incredible [gallery of tutorials](https://dipy.org/tutorials/) covering everything from fitting diffusion models to voxels, tractography, microstructural models and more! To get going with pyAFQ:
+1) Check out the [pyAFQ GitHub page](https://yeatmanlab.github.io/pyAFQ/)
+2) This documents how to
+   * [Install pyAFQ](https://yeatmanlab.github.io/pyAFQ/installation_guide.html) which can be done easliy with `pip install AFQ` (including all dependencies)
+   * [The basics of organizing data and running pyAFQ](https://yeatmanlab.github.io/pyAFQ/usage.html)
+   * [A series of examples as Jupyter Notebooks](https://yeatmanlab.github.io/pyAFQ/auto_examples/index.html). These notebooks will automatically pull the necesary data from public repos so you don't need to do anything beyond installing pyAFQ
+   * [The API is also documenter here](https://yeatmanlab.github.io/pyAFQ/autoapi/index.html)
+
+# Public Datasets with diffusion MRI data
+
+## [Healthy Brain Network (HBN)](http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/)
+The [HBN data](http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/) is an incredible resource containing thousands of subjects with diffusion MRI, behavioral measures and clinical assessments and a great data useage agreement.
+    
+    Alexander LM, et al. (2017) Data Descriptor : An open resource for transdiagnostic research in pediatric mental health and learning disorders. 1–26.
+
+## Human Connectome Project
+
+## Developing Connectome Project
+
+## ABCD
+
+## PING
+
+## PLING
 
 
