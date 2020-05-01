@@ -12,9 +12,9 @@
 
 **Two papers from our group focused on using diffusion MRI to study brain development and plasticity:**
 
-    Huber E, Donnelly PM, Rokem A, Yeatman JD (2018) Rapid and widespread white matter plasticity during an intensive reading intervention. Nat Commun 9(1):2260.
+> Huber E, Donnelly PM, Rokem A, Yeatman JD (2018) Rapid and widespread white matter plasticity during an intensive reading intervention. Nat Commun 9(1):2260.
 
-    Huber E, Henriques RN, Owen JP, Rokem A, Yeatman JD (2019) Applying microstructural models to understand the role of white matter in cognitive development. Dev Cogn Neurosci 36(February):100624.
+> Huber E, Henriques RN, Owen JP, Rokem A, Yeatman JD (2019) Applying microstructural models to understand the role of white matter in cognitive development. Dev Cogn Neurosci 36(February):100624.
 
 ## TRACTOMETRY - Automated Fiber Quantification (AFQ) 
 
