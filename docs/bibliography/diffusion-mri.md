@@ -26,7 +26,7 @@ Tractometry refers to methods for analzying properties of the brain's major whit
 
 And here is a more recent paper introducing a browser-based visualization and analysis tool to support reproducibility and data sharing
 
-    Yeatman JD, Richie-Halford A, Smith JK, Keshavan A, Rokem A (2018) A browser-based tool for visualization and analysis of diffusion MRI data. Nat Commun 9(1):940.
+> Yeatman JD, Richie-Halford A, Smith JK, Keshavan A, Rokem A (2018) A browser-based tool for visualization and analysis of diffusion MRI data. Nat Commun 9(1):940.
 
 ## Blogs and tutorials
 
