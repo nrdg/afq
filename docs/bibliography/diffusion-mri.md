@@ -4,7 +4,7 @@
 
 **A great overview of the field:**
 
-    Wandell BA (2016) Clarifying Human White Matter. Annu Rev Neurosci 39(1):annurev-neuro-070815-013815.
+> Wandell BA (2016) Clarifying Human White Matter. Annu Rev Neurosci 39(1):annurev-neuro-070815-013815.
 
 **Review paper on fiber tractography methods:**
 
@@ -74,4 +74,3 @@ The [HBN data](http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_networ
 ## PING
 
 ## PLING
-
