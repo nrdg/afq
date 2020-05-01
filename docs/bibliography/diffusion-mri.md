@@ -1,6 +1,6 @@
 # Resources for learning the basics of diffusion MRI
 
-## Here are some readings to introduuce the field
+## Here are some readings to introduce the field
 
 **A great overview of the field:**
 
@@ -74,5 +74,4 @@ The [HBN data](http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_networ
 ## PING
 
 ## PLING
-
 
