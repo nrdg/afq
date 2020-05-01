@@ -1,6 +1,6 @@
 # Resources for learning the basics of diffusion MRI
 
-## Here as some readings to introduuce the field
+## Here are some readings to introduuce the field
 
 **A great overview of the field:**
 
@@ -16,7 +16,9 @@
 
     Huber E, Henriques RN, Owen JP, Rokem A, Yeatman JD (2019) Applying microstructural models to understand the role of white matter in cognitive development. Dev Cogn Neurosci 36(February):100624.
 
-## Automated Fiber Quantification is a method for analyzing white matter tracts
+## TRACTOMETRY - Automated Fiber Quantification (AFQ) 
+
+Tractometry refers to methods for analzying properties of the brain's major white matter connections. Automated Fiber Quantification (AFQ) is a tractometry toolbox we developed for analyzing white matter tracts in individuals and groups. There is a MATLAB and a Python version of AFQ.
 
 **Here is the paper that introducued the method:**
 
