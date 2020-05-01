@@ -1,18 +1,30 @@
 # Resources for learning the basics of diffusion MRI
 
-## Here as some basic readings to introduuce the field
+## Here as some readings to introduuce the field
 
-Wandell BA (2016) Clarifying Human White Matter. Annu Rev Neurosci 39(1):annurev-neuro-070815-013815.
+**A great overview of the field:**
+
+    Wandell BA (2016) Clarifying Human White Matter. Annu Rev Neurosci 39(1):annurev-neuro-070815-013815.
+
+**Review paper on fiber tractography methods:**
+
+    Jeurissen B, Descoteaux M, Mori S, Leemans A (2019) Diffusion MRI fiber tractography of the brain. NMR Biomed 32(4):1–22.
+
+**Two papers from our group focused on using diffusion MRI to study brain development and plasticity:**
+
+    Huber E, Donnelly PMPM, Rokem A, Yeatman JD (2018) Rapid and widespread white matter plasticity during an intensive reading intervention. Nat Commun 9(1):2260.
+
+    Huber E, Henriques RN, Owen JP, Rokem A, Yeatman JD (2019) Applying microstructural models to understand the role of white matter in cognitive development. Dev Cogn Neurosci 36(February):100624.
 
 ## Automated Fiber Quantification is a method for analyzing white matter tracts
 
-Here is the paper that introducued the method:
+**Here is the paper that introducued the method:**
 
     Yeatman JD, Dougherty RF, Myall NJ, Wandell BA, Feldman HMM (2012) Tract profiles of white matter properties: automating fiber-tract quantification. PLoS One 7(11):e49790.
 
 And here is a more recent paper introducing a browser-based visualization and analysis tool to support reproducibility and data sharing
 
-    Yeatman JD, Richie-Halford A, Smith JKJK, Keshavan A, Rokem A (2018) A browser-based tool for visualization and analysis of diffusion MRI data. Nat Commun 9(1):940.
+    Yeatman JD, Richie-Halford A, Smith JK, Keshavan A, Rokem A (2018) A browser-based tool for visualization and analysis of diffusion MRI data. Nat Commun 9(1):940.
 
 ## Blogs and tutorials
 
