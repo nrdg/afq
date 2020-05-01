@@ -8,7 +8,7 @@
 
 **Review paper on fiber tractography methods:**
 
-    Jeurissen B, Descoteaux M, Mori S, Leemans A (2019) Diffusion MRI fiber tractography of the brain. NMR Biomed 32(4):1–22.
+> Jeurissen B, Descoteaux M, Mori S, Leemans A (2019) Diffusion MRI fiber tractography of the brain. NMR Biomed 32(4):1–22.
 
 **Two papers from our group focused on using diffusion MRI to study brain development and plasticity:**
 
