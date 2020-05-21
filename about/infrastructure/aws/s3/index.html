@@ -6,7 +6,7 @@
 <title>Simple Storage Service - Automated Fiber Quantification</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<meta name="generator" content="mkdocs-1.1, mkdocs-gitbook-1.0.7">
+<meta name="generator" content="mkdocs-1.1.2, mkdocs-gitbook-1.0.7">
 
 <link rel="shortcut icon" href="../../../../images/favicon.ico" type="image/x-icon">
 <meta name="HandheldFriendly" content="true"/>
@@ -180,11 +180,14 @@ dmriprep.</p>
 <p>Here, we will use the command-line interface to upload the data
 (see how to <a href="../getting_started/">get started</a> with that).</p>
 <p>The command reference for S3 sub-commands is <a href="https://docs.aws.amazon.com/cli/latest/reference/s3/index.html">here</a>.
-Specifically, to create a bucket on S3, you will use the <a href="https://docs.aws.amazon.com/cli/latest/reference/s3/mb.html">mb</a>:
-sub-sub-command:</p>
-<p>aws s3 mb s3://study</p>
+Specifically, to create a bucket on S3, you will use the <a href="https://docs.aws.amazon.com/cli/latest/reference/s3/mb.html"><code>mb</code></a> sub-sub-command:</p>
+<pre><code>aws s3 mb s3://study
+</code></pre>
+
 <p>This command should be executed once. Then, uploading the data as a sync operation:</p>
-<p>aws s3 sync path/to/study s3://study</p>
+<pre><code>aws s3 sync path/to/study s3://study
+</code></pre>
+
 <p>The use of <code>sync</code> (rather than <code>aws s3 cp</code>) means that only new data would be
 uploaded (for example, if repeated calls are made).</p>
 
