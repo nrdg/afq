@@ -132,6 +132,11 @@ Theme by GitBook
 <p>Huber E, Donnelly PM, Rokem A, Yeatman JD (2018) Rapid and widespread white matter plasticity during an intensive reading intervention. Nat Commun 9(1):2260.</p>
 <p>Huber E, Henriques RN, Owen JP, Rokem A, Yeatman JD (2019) Applying microstructural models to understand the role of white matter in cognitive development. Dev Cogn Neurosci 36(February):100624.</p>
 </blockquote>
+<p><strong>There are so many tractography algorithms. Which one is the best?</strong>
+There is no simple answer to this question: it depends on your goals, the data acquisition as well as the subjects being studied. For example, many of the cutting-edge algorithms depend on collecting many diffusion directions across multiple b-values and this often isn't feasible in clinical studies or pediatric studies. Understanding the tradeoffs between different algorithms is important. Recent work by Girard and colleagues [^1] compared the compendium of tractography algorithms implemented in mrtrix and DIPY to "gold-standard" tracer studies done in rhesus macaque monkey. This recent paper provides a thoughtful description of how to think about gold standards and how to evaluate the tradeoffs between different algorithms. They conclude that many tractography algorithms are quite good in terms of sensitivity/specificity and provide useful guidance in distinguishing between different algorithms.</p>
+<blockquote>
+<p>Girard, Gabriel, Roberto Caminiti, Alexandra Battaglia-Mayer, Etienne St-Onge, Karen S. Ambrosen, Simon F. Eskildsen, Kristine Krug, et al. 2020. “On the Cortical Connectivity in the Macaque Brain: A Comparison of Diffusion Tractography and Histological Tracing Data.” NeuroImage 221 (July): 117201.</p>
+</blockquote>
 <h2 id="tractometry-automated-fiber-quantification-afq">TRACTOMETRY - Automated Fiber Quantification (AFQ)</h2>
 <p>Tractometry refers to methods for analzying properties of the brain's major white matter connections. Automated Fiber Quantification (AFQ) is a tractometry toolbox we developed for analyzing white matter tracts in individuals and groups. There is a MATLAB and a Python version of AFQ.</p>
 <p><strong>Here is the paper that introducued the method:</strong></p>
