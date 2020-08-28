@@ -67,3 +67,9 @@ you are interested in doing something really ambitious that you think will cost 
 Ariel (he'll probably say "go ahead").
 
 You can calculate usage/cost with the [AWS cost calculator](https://calculator.aws/#/).
+
+### Benchmark large projects using data subsets
+
+Relatedly, if you are planning ambitious calculations on AWS, benchmark your computational pipeline on smaller subsets of your data. For example, if you want to analyze a large dataset of 2,000 subjects, you should first demonstrate that your pipeline works on a sample of 10-20 subjects from the same dataset. This will allow you detect bugs and fine-tune your analysis pipeline before the larger production run.
+
+Please adopt this practice in your own work and ask to see evidence of these "benchmarking runs" when providing feedback for others in the `#AWS` slack channel.
