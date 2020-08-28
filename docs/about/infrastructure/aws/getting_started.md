@@ -41,7 +41,7 @@ To add credentials for the HCP project (for example) use:
 This will add a section to your `~/.aws/credentials` file with the access key id and 
 secret access key that you got from the HCP for access to their data. Different 
 credentials give you different priviliges. For example, the HCP credentials 
-will only give you read priviliges on one 
+will only give you read access to the HCP OpenAccess Amazon S3 Bucket.
 
 
 
