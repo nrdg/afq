@@ -143,7 +143,10 @@ For example, if you need to access data that is credentialed through the HCP</p>
 <p>To add credentials for the HCP project (for example) use:</p>
 <pre><code>aws configure --profile hcp
 </code></pre>
-<p>This will add</p>
+<p>This will add a section to your <code>~/.aws/credentials</code> file with the access key id and 
+secret access key that you got from the HCP for access to their data. Different 
+credentials give you different priviliges. For example, the HCP credentials 
+will only give you read access to the HCP OpenAccess Amazon S3 Bucket.</p>
 <h3 id="boto3">Boto3</h3>
 <p>This is a Python library that allows you to interact with AWS. It is highly
 useful, but the API can be a bit inconsistent and confusing.</p>
@@ -152,6 +155,11 @@ useful, but the API can be a bit inconsistent and confusing.</p>
 <p>This library extends Boto3 to provide a <em>much nicer</em> and <em>more efficient</em>
 interface to data stored in AWS S3.</p>
 <p><a href="https://s3fs.readthedocs.io/en/latest/">Documentation</a></p>
+<h3 id="cloudknot">Cloudknot</h3>
+<p>This library packages Python code for execution on AWS Batch.</p>
+<p><a href="https://nrdg.github.io/cloudknot">Documentation</a></p>
+<h3 id="jupyterhub">Jupyterhub</h3>
+<p>We don't have one yet, but we will.</p>
 
 
 </section>

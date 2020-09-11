@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>How to use AWS in our projects - Automated Fiber Quantification</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="generator" content="mkdocs-1.1.2, mkdocs-gitbook-1.0.7">
+
+<link rel="shortcut icon" href="../../../../images/favicon.ico" type="image/x-icon">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta rel="next" href="" />
+<link href="../../../../css/style.min.css" rel="stylesheet"> 
+</head>
+
+<body>
+<div class="book">
+<div class="book-summary">
+
+<nav role="navigation">
+<ul class="summary">
+<li>
+<a href="../../../.." target="_blank" class="custom-link">Automated Fiber Quantification</a>
+</li>
+<li class="divider"></li>
+<li class="chapter" data-path="">
+<a href="../../../..">Home</a>
+<li class="header">Bibliography</li>
+
+<li>
+<a href="../../../../bibliography/diffusion-mri/" class="">Diffusion MRI</a>
+</li>
+
+<li>
+<a href="../../../../bibliography/machine-learning/" class="">Machine learning</a>
+</li>
+
+<li class="header">About</li>
+
+<li>
+<a href="../../../license/" class="">License</a>
+</li>
+
+<li>
+<a href="../../../funding/" class="">Funding sources</a>
+</li>
+
+<li>
+<a href="../../../related/" class="">Related projects</a>
+</li>
+
+<li>
+<a href="#">Infrastructure</a>
+<ul>
+
+<li>
+<a href="../../jupyterhub/" class="">Jupyterhub</a>
+</li>
+
+<li>
+<a href="../../installing_python_packages/" class="">Installing Python packages</a>
+</li>
+
+<li>
+<a href="#">AWS</a>
+<ul>
+
+<li>
+<a href="../getting_started/" class="">Getting started</a>
+</li>
+
+<li>
+<a href="../s3/" class="">Simple Storage Service</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li class="divider"></li>
+
+
+
+<li><a href="http://www.mkdocs.org">
+Published with MkDocs
+</a></li>
+
+<li><a href="https://github.com/GitbookIO/theme-default">
+Theme by GitBook
+</a></li>
+</ul>
+
+</nav>
+
+</div> <!-- end of book-summary -->
+
+<div class="book-body">
+<div class="body-inner">
+<div class="book-header" role="navigation">
+
+<!-- Title -->
+<h1>
+<i class="fa fa-circle-o-notch fa-spin"></i>
+<a href="." ></a>
+</h1>
+
+</div> <!-- end of book-header -->
+
+<div class="page-wrapper" tabindex="-1" role="main">
+<div class="page-inner">
+
+<section class="normal markdown-section">
+
+
+
+<h1 id="how-to-use-aws-in-our-projects">How to use AWS in our projects</h1>
+<h2 id="getting-credentials">Getting credentials</h2>
+<p>We try to use the <a href="https://en.wikipedia.org/wiki/Principle_of_least_privilege">principle of least privilege</a>. 
+That means that when you get credentials to access our AWS account, we will try to limit your 
+privileges as much as possible, so that you can still do the things you need to do with your 
+AWS account. This ensures that you don't accidentally do things you don't need to do that 
+can affect others (e.g., deleting data you are not working with, or starting machines when you 
+don't need to do that). </p>
+<h3 id="compromised-credentials">Compromised credentials</h3>
+<p>Compromised credentials are credentials that may have been exposed to people who should not have them. 
+One (scarily common) way in which credentials can get compromised is if they are somehow stored in 
+code and get committed to a repository and pushed to GitHub. Please note that if you committed credentials 
+into the history of a git repo, they will still be there in the history of the repo, 
+<em>even if you delete them and commit the deletion</em>. This means that if you committed the credentials, and you 
+are not sure how to remove them from the repo history, do not push that repo to GitHub, and ask for 
+someone to help.</p>
+<p>We hope to never have compromised credentials, but if you have reason to believe that your credentials were 
+compromised (e.g., you accidentally pushed them to GitHub), please let us know as soon as possible, so that 
+we can mitigate the potential harm of this.</p>
+<h3 id="multi-factor-authentication">Multi-factor authentication</h3>
+<p>If your credentials allow you to log into the AWS console, you <em>must</em> use multi-factor 
+authentication. MFA means that in addition to entering your password when logging in, 
+another form of authentication will be required to get access to the console. For example, 
+a cell-phone app that provides you with a token. </p>
+<h2 id="rules-of-thumb-for-resource-usage">Rules of thumb for resource usage</h2>
+<h3 id="always-tag-resources-with-a-project-tag">Always tag resources with a "project" tag</h3>
+<p>Tagging resources helps us track how much resources are being used in what project.
+Tagging is easy if you are using the console. Whenever starting a resource (e.g., 
+EC2 instance, or S3 bucket, you will have the option to tag it through the console).</p>
+<p>We currently have the following tags:</p>
+<ul>
+<li>HCP </li>
+<li>HBN</li>
+<li>ABCD</li>
+<li>IXI</li>
+<li>dHCP</li>
+<li>dev</li>
+</ul>
+<h3 id="consider-how-you-are-using-storage">Consider how you are using storage</h3>
+<p>Block storage (for example an EC2 instance hard-drive) is about an order of magnitude more expensive than 
+an Amazon Machine Image, which is about an order of magnitude more expensive than highly-available S3, which is 
+about an order of magnitude more expensive than Glacier storage. </p>
+<h3 id="use-the-smallest-possible-instance-for-the-job">Use the smallest possible instance for the job</h3>
+<p>Similar to storage, please consider what machine you are using. When launching an EC2 instance from the console, 
+pay attention to the RAM and CPU that are provided by the instance that you are using and choose the smallest 
+amount of these that will let you comfortably do the work you want to do. Similarily</p>
+<h3 id="when-in-doubt-ask-someone">When in doubt, ask someone</h3>
+<p>If you think that what you are about to do will cost less than $50, go ahead and do it (As an example, 
+preprocessing with qsiprep/cloudknot on spot instances costs about $1/participant). If you think that it would 
+cost  $50 - $1,000, please post to the <code>#AWS</code> slack channel, and wait for someone else to provide feedback. If 
+you are interested in doing something really ambitious that you think will cost more than $1,000, please ask 
+Ariel (he'll probably say "go ahead").</p>
+<p>You can calculate usage/cost with the <a href="https://calculator.aws/#/">AWS cost calculator</a>.</p>
+<h3 id="benchmark-large-projects-using-data-subsets">Benchmark large projects using data subsets</h3>
+<p>Relatedly, if you are planning ambitious calculations on AWS, benchmark your computational pipeline on smaller subsets of your data. For example, if you want to analyze a large dataset of 2,000 subjects, you should first demonstrate that your pipeline works on a sample of 10-20 subjects from the same dataset. This will allow you detect bugs and fine-tune your analysis pipeline before the larger production run.</p>
+<p>Please adopt this practice in your own work and ask to see evidence of these "benchmarking runs" when providing feedback for others in the <code>#AWS</code> slack channel.</p>
+
+
+</section>
+
+</div> <!-- end of page-inner -->
+</div> <!-- end of page-wrapper -->
+
+</div> <!-- end of body-inner -->
+
+</div> <!-- end of book-body -->
+<script src="../../../../js/main.js"></script>
+<script src="../../../../js/gitbook.min.js"></script>
+<script src="../../../../js/theme.min.js"></script>
+</body>
+</html>
