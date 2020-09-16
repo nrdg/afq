@@ -21,7 +21,7 @@ There is no simple answer to this question: it depends on your goals, the data a
 
 > Girard, Gabriel, Roberto Caminiti, Alexandra Battaglia-Mayer, Etienne St-Onge, Karen S. Ambrosen, Simon F. Eskildsen, Kristine Krug, et al. 2020. “On the Cortical Connectivity in the Macaque Brain: A Comparison of Diffusion Tractography and Histological Tracing Data.” NeuroImage 221 (July): 117201.
 
-## TRACTOMETRY - Automated Fiber Quantification (AFQ) 
+## TRACTOMETRY - Automated Fiber Quantification (AFQ)
 
 Tractometry refers to methods for analzying properties of the brain's major white matter connections. Automated Fiber Quantification (AFQ) is a tractometry toolbox we developed for analyzing white matter tracts in individuals and groups. There is a MATLAB and a Python version of AFQ.
 
@@ -45,7 +45,7 @@ https://www.imagilys.com/diffusion-tensor-imaging-dti/
 
 ## AFQ (MATLAB)
 
-The original matlab version of AFQ comes with tutorials and example data. 
+The original matlab version of AFQ comes with tutorials and example data.
 
 1) Clone the AFQ repo (and dependencies listed in README.txt) here: https://github.com/yeatmanlab/AFQ
 2) Read the brief wiki page: https://github.com/yeatmanlab/AFQ/wiki
@@ -53,7 +53,7 @@ The original matlab version of AFQ comes with tutorials and example data.
 4) See the AFQ_example totorial as well https://github.com/yeatmanlab/AFQ/blob/master/tutorials/AFQ_example.m
 5) See the Group Comparison example https://github.com/yeatmanlab/AFQ/blob/master/tutorials/AFQ_example_GroupComparison.m
 
-#pyAFQ
+## pyAFQ
 
 All new development is occuring on pyAFQ which leveraged the [Diffusion Imaging in Python (DIPY)](https://dipy.org/) package to provide a much more flexible and extensible version of AFQ. DIPY also has an incredible [gallery of tutorials](https://dipy.org/tutorials/) covering everything from fitting diffusion models to voxels, tractography, microstructural models and more! To get going with pyAFQ:
 1) Check out the [pyAFQ GitHub page](https://yeatmanlab.github.io/pyAFQ/)
@@ -67,7 +67,7 @@ All new development is occuring on pyAFQ which leveraged the [Diffusion Imaging 
 
 ## [Healthy Brain Network (HBN)](http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/)
 The [HBN data](http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/) is an incredible resource containing thousands of subjects with diffusion MRI, behavioral measures and clinical assessments and a great data useage agreement.
-    
+
     Alexander LM, et al. (2017) Data Descriptor : An open resource for transdiagnostic research in pediatric mental health and learning disorders. 1–26.
 
 ## Human Connectome Project

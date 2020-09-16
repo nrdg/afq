@@ -1,8 +1,26 @@
 # DIRECT : Data-intensive REsearch in ConnecTomics
 
-Human neuroscience is rapidly turning towards data-driven research, thanks in
-large part to concerted efforts that collect and aggregate large datasets. A
-paragon of this kind of data collection is the NIH-funded
+Human neuroscience is rapidly turning towards data-driven research thanks in
+large part to concerted efforts that collect and aggregate large
+[openly-available datasets](XXX).
+
+DIRECT is a collaboration focused on data-driven understanding of the human
+connectome. We develop and use tools that quantify different aspects of human brain
+networks and relate brain network properties to complex behavioral phenotypes.
+
+We develop an ecosystem of [software projects](about/projects.md) developed by DIRECT are:
+
+
+See the [team](XXX).
+
+If you are interested, feel free to [contact us](XXX).
+
+We are grateful for [funding](XXX) that supports our work.
+
+Want to learn about human connectomics? Read more [here](XXX)
+
+
+A paragon of this kind of data collection is the NIH-funded
 [Human Connectome Project (HCP)](https://www.humanconnectome.org/), which provides high-quality
 MRI data from more than 1,200 young healthy individuals, coupled with behavioral
 and genetic information [@]. Several other ongoing studies are currently
@@ -21,37 +39,15 @@ profound impact on neuroscience as data-driven methods are employed to
 illuminate the biological underpinnings of human brain health in new and
 important ways.
 
-DIRECT is a collaboration focused on data-driven understanding of the human
-connectome. We develop tools that quantify different aspects of brain networks
-and relate brain network properties to complex behavioral phenotypes and we use
-these tools to analyze large openly-available datasets. We focus our
-investigations primarily on the measurements of the white matter contains the long-range connections between different
-brain regions. Diffusion MRI (dMRI) is a powerful imaging technology that
-provides non-invasive *in vivo* measurements of these connections. These
-measurements have provided compelling evidence that the biophysical properties
-of these connections account for individual variation in many important
-cognitive skills, and they predict clinical symptoms across a variety of
-psychiatric and neurological disorders (reviewed in [@Rokem2017JoVWM] and
-[@wandell2016clarifying]).
 
-One of the major challenges in analyzing dMRI data is that the details of the 3D
-structure of white matter anatomy varies between individuals. *Tractometry* is a
-methodology that solves this problem by identifying specific connections in each
-individual's brain, using known anatomical structures as the coordinate system
-to compare measurements across subjects. We are implementing open-source
-software for tractometry and to extract the biophysical properties of major
-brain connections. Based on this tractometry framework, we are also implementing
-novel methods for statistical learning and visualization of the features of
-white matter anatomy that lead to individual differences in the behavioral
-measurements. We will facilitate further exploration of these results and their
-integration with other datasets through web-based visualization tools. Taken
-together these projects provide a comprehensive
-**data science toolbox for end-to-end analysis of dMRI data**: the delineation
-of trajectories of white matter tracts within individual brains, integration of
-measurements across individuals, inferences about the role of connections in
-individual variability of their cognitive abilities and behavior, and
-exploration of the results through interactive visualizations. This is
-particularly important as the research community is developing large datasets.
+We focus our investigations primarily on the measurements of the white matter
+contains the long-range connections between different brain regions. Diffusion
+MRI (dMRI) is a powerful imaging technology that provides non-invasive *in vivo*
+measurements of these connections. These measurements have provided compelling
+evidence that the biophysical properties of these connections account for
+individual variation in many important cognitive skills, and they predict
+clinical symptoms across a variety of psychiatric and neurological disorders
+(reviewed in [@Rokem2017JoVWM] and [@wandell2016clarifying]).
 
 
 
@@ -85,14 +81,6 @@ This website documents the AFQ projects:
 ## TODO: How to diagnose or debug output? tests? confirm validity? sanity checks?
 -->
 
-[AFQ-Insight](https://github.com/richford/AFQ-Insight)
-
-[pyAFQ](https://yeatmanlab.github.io/pyAFQ/)
-<!--
-#TODO: Why AFQ and pyAFQ? which should I choose and why?
--->
-
-[AFQ-Browser](https://yeatmanlab.github.io/AFQ-Browser/)
 
 
 
