@@ -1,10 +1,41 @@
 # Overview
 
+<!--
+## TODO: Expectations for autofq site?
+Is autofq the central information repository or is it an overview and visitors should go to individual project websites/github pages?
+
+## TODO: What is AFQ?
+Could leverage some content from [AFQ wiki](https://github.com/yeatmanlab/AFQ/wiki)
+
+## TODO: Who is AFQ? 
+Background information on project(s)? Who to contact for questions? Citations for usage?
+
+## TODO: Why is AFQ? 
+More on motivation. Define intended audiences (e.g., researchers/library users and developers)
+-->
+
+<!--
+## TODO: What are some intended uses and use cases? 
+* Incorporate links to samples/examples/tutorials. 
+* What knowledge is assumed? (e.g., neuroanatomy, neuroinformatics, neuro imaging, tractometry, git, python, AWS). 
+* Do want to get into providing background resources (e.g., review papers, dictionary terminology)
+* Create use case documentation (how to install and run [local vs cloud] vs how to set up development environment and contribute)
+-->
+
 This website documents the AFQ projects:
+<!--
+## TODO: Based on my use case, how do I know which project to use? How do the projects relate/integrate? What are they capable of what are limitations? release schedule information? 
+## TODO: What is processing pipeline? diagram? what are steps? which are optional? what are tolerances (recommended settings for use cases)?
+## TODO: requirements? assumptions? dependencies? integration? interoperability? standards/specifications?
+## TODO: How to diagnose or debug output? tests? confirm validity? sanity checks?
+-->
 
 [AFQ-Insight](https://github.com/richford/AFQ-Insight)
 
 [pyAFQ](https://yeatmanlab.github.io/pyAFQ/)
+<!-- 
+#TODO: Why AFQ and pyAFQ? which should I choose and why?
+-->
 
 [AFQ-Browser](https://yeatmanlab.github.io/AFQ-Browser/)
 
