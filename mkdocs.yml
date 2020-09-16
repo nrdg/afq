@@ -1,7 +1,7 @@
 site_name: Automated Fiber Quantification
 nav:
 - Home: 'index.md'
-- Bibliography:
+- Background:
     - 'Diffusion MRI': 'background/diffusion-mri.md'
     - 'Machine learning': 'background/machine-learning.md'
 - About:

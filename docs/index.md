@@ -74,6 +74,7 @@ More on motivation. Define intended audiences (e.g., researchers/library users a
 -->
 
 This website documents the AFQ projects:
+
 <!--
 ## TODO: Based on my use case, how do I know which project to use? How do the projects relate/integrate? What are they capable of what are limitations? release schedule information?
 ## TODO: What is processing pipeline? diagram? what are steps? which are optional? what are tolerances (recommended settings for use cases)?
