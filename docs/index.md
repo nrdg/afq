@@ -9,6 +9,18 @@ connectome. We develop and use tools that quantify different aspects of human br
 networks and relate brain network properties to complex behavioral phenotypes.
 Our work bridges between human neuroscience and statistical learning.
 
+We focus our investigations primarily on the measurements of the white matter
+contains the long-range connections between different brain regions. Diffusion
+MRI (dMRI) is a powerful imaging technology that provides non-invasive *in vivo*
+measurements of these connections. These measurements have provided compelling
+evidence that the biophysical properties of these connections account for
+individual variation in many important cognitive skills, and they predict
+clinical symptoms across a variety of psychiatric and neurological disorders
+(reviewed in [@Rokem2017JoVWM] and [@wandell2016clarifying]). Want to learn
+about human connectomics? Read more [here](background/diffusion-mri.md).
+Want to learn more about our statistical learning methods?
+Read more [here](background/machine-learning.md)
+
 To make our work widely applicable, we develop an ecosystem of open-source
 software [projects](about/projects.md).
 
@@ -17,18 +29,6 @@ See the [team](about/team.md).
 If you are interested in these projects, feel free to [contact us](mailto:arokem@uw.edu).
 
 We are grateful for [funding](about/funding.md) that supports our work.
-
-Want to learn about human connectomics? Read more [here](background/diffusion-mri.md)
-
-We focus our investigations primarily on the measurements of the white matter
-contains the long-range connections between different brain regions. Diffusion
-MRI (dMRI) is a powerful imaging technology that provides non-invasive *in vivo*
-measurements of these connections. These measurements have provided compelling
-evidence that the biophysical properties of these connections account for
-individual variation in many important cognitive skills, and they predict
-clinical symptoms across a variety of psychiatric and neurological disorders
-(reviewed in [@Rokem2017JoVWM] and [@wandell2016clarifying]).
-
 
 <!--
 ## TODO: Expectations for autofq site?
@@ -52,17 +52,12 @@ More on motivation. Define intended audiences (e.g., researchers/library users a
 * Create use case documentation (how to install and run [local vs cloud] vs how to set up development environment and contribute)
 -->
 
-This website documents the AFQ projects:
-
 <!--
 ## TODO: Based on my use case, how do I know which project to use? How do the projects relate/integrate? What are they capable of what are limitations? release schedule information?
 ## TODO: What is processing pipeline? diagram? what are steps? which are optional? what are tolerances (recommended settings for use cases)?
 ## TODO: requirements? assumptions? dependencies? integration? interoperability? standards/specifications?
 ## TODO: How to diagnose or debug output? tests? confirm validity? sanity checks?
 -->
-
-
-
 
 
 \bibliography

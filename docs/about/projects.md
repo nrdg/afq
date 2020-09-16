@@ -25,7 +25,7 @@ We will facilitate further exploration of these results and their
 integration with other datasets through web-based visualization tools.
 
 
-
+![](../img/afq-ecosystem.png)
 
 
 

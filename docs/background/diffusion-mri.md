@@ -66,20 +66,3 @@ All new development is occuring on pyAFQ which leveraged the [Diffusion Imaging 
 
 
 Public Datasets with diffusion MRI data are described in our [datasets page](datasets.md)
-
-
-
-## [Healthy Brain Network (HBN)](http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/)
-The [HBN data](http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/) is an incredible resource containing thousands of subjects with diffusion MRI, behavioral measures and clinical assessments and a great data useage agreement.
-
-    Alexander LM, et al. (2017) Data Descriptor : An open resource for transdiagnostic research in pediatric mental health and learning disorders. 1–26.
-
-## Human Connectome Project
-
-## Developing Connectome Project
-
-## ABCD
-
-## PING
-
-## PLING
