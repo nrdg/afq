@@ -34,7 +34,7 @@ Many other projects are also collecting very large datasets on a variety of clin
 This trend is not likely to abate, as the field is becoming increasingly aware
 that large samples are crucial for reproducibility and for accurate inferences
 about the role of brain structure and function in complex behaviors and in
-mental and neurological health [@Marek2020repro]. In fact, these datasets are already having a
+mental and neurological health [@marek2020repro]. In fact, these datasets are already having a
 profound impact on neuroscience as data-driven methods are employed to
 illuminate the biological underpinnings of human brain health in new and
 important ways.
