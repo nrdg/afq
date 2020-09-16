@@ -39,7 +39,6 @@ profound impact on neuroscience as data-driven methods are employed to
 illuminate the biological underpinnings of human brain health in new and
 important ways.
 
-
 We focus our investigations primarily on the measurements of the white matter
 contains the long-range connections between different brain regions. Diffusion
 MRI (dMRI) is a powerful imaging technology that provides non-invasive *in vivo*
@@ -48,7 +47,6 @@ evidence that the biophysical properties of these connections account for
 individual variation in many important cognitive skills, and they predict
 clinical symptoms across a variety of psychiatric and neurological disorders
 (reviewed in [@Rokem2017JoVWM] and [@wandell2016clarifying]).
-
 
 
 <!--

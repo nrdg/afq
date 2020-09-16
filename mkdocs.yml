@@ -9,6 +9,7 @@ nav:
     - 'Funding sources': 'about/funding.md'
     - 'Related projects' : 'about/related.md'
     - 'Our projects' : 'about/projects.md'
+    - 'Team and collaborators' : 'about/team.md'
     - Infrastructure:
       - 'Jupyterhub': 'about/infrastructure/jupyterhub.md'
       - 'Installing Python packages': 'about/infrastructure/installing_python_packages.md'
