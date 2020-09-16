@@ -38,3 +38,16 @@ Cloudknot is a python library designed to run your existing python code on
 [AWS Batch](https://aws.amazon.com/batch).
 
 https://richford.github.io/cloudknot/
+
+
+## BIDS
+
+The Brain Imaging Data Structure is a specification that describes how
+to organize and query datasets of brain imaging data. In our
+work, we rely on BIDS and extend it to organize derivatives from our analysis
+software.
+
+https://bids-specification.readthedocs.io/en/stable/
+
+
+

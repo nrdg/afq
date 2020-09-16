@@ -2,7 +2,7 @@
 
 Human neuroscience is rapidly turning towards data-driven research thanks in
 large part to concerted efforts that collect and aggregate large
-[openly-available datasets](XXX).
+[openly-available datasets](background/datasets.md).
 
 DIRECT is a collaboration focused on data-driven understanding of the human
 connectome. We develop and use tools that quantify different aspects of human brain
@@ -11,11 +11,11 @@ networks and relate brain network properties to complex behavioral phenotypes.
 We develop an ecosystem of [software projects](about/projects.md) developed by DIRECT are:
 
 
-See the [team](XXX).
+See the [team](about/team.md).
 
-If you are interested, feel free to [contact us](XXX).
+If you are interested in these projects, feel free to [contact us](mailto:arokem@uw.edu).
 
-We are grateful for [funding](XXX) that supports our work.
+We are grateful for [funding](about/funding.md) that supports our work.
 
 Want to learn about human connectomics? Read more [here](XXX)
 
