@@ -1,13 +1,15 @@
 site_name: Automated Fiber Quantification
 nav:
 - Home: 'index.md'
-- Bibliography:
-    - 'Diffusion MRI': 'bibliography/diffusion-mri.md'
-    - 'Machine learning': 'bibliography/machine-learning.md'
+- Background:
+    - 'Diffusion MRI': 'background/diffusion-mri.md'
+    - 'Machine learning': 'background/machine-learning.md'
 - About:
     - 'License': 'about/license.md'
     - 'Funding sources': 'about/funding.md'
     - 'Related projects' : 'about/related.md'
+    - 'Our projects' : 'about/projects.md'
+    - 'Team and collaborators' : 'about/team.md'
     - Infrastructure:
       - 'Jupyterhub': 'about/infrastructure/jupyterhub.md'
       - 'Installing Python packages': 'about/infrastructure/installing_python_packages.md'
