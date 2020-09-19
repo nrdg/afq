@@ -29,14 +29,14 @@
 <li class="divider"></li>
 <li class="chapter active" data-path="">
 <a href=".">Home</a>
-<li class="header">Bibliography</li>
+<li class="header">Background</li>
 
 <li>
-<a href="bibliography/diffusion-mri/" class="">Diffusion MRI</a>
+<a href="background/diffusion-mri/" class="">Diffusion MRI</a>
 </li>
 
 <li>
-<a href="bibliography/machine-learning/" class="">Machine learning</a>
+<a href="background/machine-learning/" class="">Machine learning</a>
 </li>
 
 <li class="header">About</li>
@@ -51,6 +51,14 @@
 
 <li>
 <a href="about/related/" class="">Related projects</a>
+</li>
+
+<li>
+<a href="about/projects/" class="">Our projects</a>
+</li>
+
+<li>
+<a href="about/team/" class="">Team and collaborators</a>
 </li>
 
 <li>
@@ -117,7 +125,30 @@ Theme by GitBook
 
 
 
-<h1 id="overview">Overview</h1>
+<h1 id="direct-data-intensive-research-in-connectomics">DIRECT : Data-intensive REsearch in ConnecTomics</h1>
+<p>Human neuroscience is rapidly turning towards data-driven research thanks in
+large part to concerted efforts that collect and aggregate large
+<a href="background/datasets/">openly-available datasets</a>.</p>
+<p>DIRECT is a collaboration focused on data-driven understanding of the human
+connectome. We develop and use tools that quantify different aspects of human brain
+networks and relate brain network properties to complex behavioral phenotypes.
+Our work bridges between human neuroscience and statistical learning.</p>
+<p>We focus our investigations primarily on the measurements of the white matter
+contains the long-range connections between different brain regions. Diffusion
+MRI (dMRI) is a powerful imaging technology that provides non-invasive <em>in vivo</em>
+measurements of these connections. These measurements have provided compelling
+evidence that the biophysical properties of these connections account for
+individual variation in many important cognitive skills, and they predict
+clinical symptoms across a variety of psychiatric and neurological disorders
+(reviewed in [^1] and [^2]). Want to learn
+about human connectomics? Read more <a href="background/diffusion-mri/">here</a>.
+Want to learn more about our statistical learning methods?
+Read more <a href="background/machine-learning/">here</a></p>
+<p>To make our work widely applicable, we develop an ecosystem of open-source
+software <a href="about/projects/">projects</a>.</p>
+<p>See the <a href="about/team/">team</a>.</p>
+<p>If you are interested in these projects, feel free to <a href="mailto:arokem@uw.edu">contact us</a>.</p>
+<p>We are grateful for <a href="about/funding/">funding</a> that supports our work.</p>
 <!--
 ## TODO: Expectations for autofq site?
 Is autofq the central information repository or is it an overview and visitors should go to individual project websites/github pages?
@@ -125,60 +156,28 @@ Is autofq the central information repository or is it an overview and visitors s
 ## TODO: What is AFQ?
 Could leverage some content from [AFQ wiki](https://github.com/yeatmanlab/AFQ/wiki)
 
-## TODO: Who is AFQ? 
+## TODO: Who is AFQ?
 Background information on project(s)? Who to contact for questions? Citations for usage?
 
-## TODO: Why is AFQ? 
+## TODO: Why is AFQ?
 More on motivation. Define intended audiences (e.g., researchers/library users and developers)
 -->
 
 <!--
-## TODO: What are some intended uses and use cases? 
-* Incorporate links to samples/examples/tutorials. 
-* What knowledge is assumed? (e.g., neuroanatomy, neuroinformatics, neuro imaging, tractometry, git, python, AWS). 
+## TODO: What are some intended uses and use cases?
+* Incorporate links to samples/examples/tutorials.
+* What knowledge is assumed? (e.g., neuroanatomy, neuroinformatics, neuro imaging, tractometry, git, python, AWS).
 * Do want to get into providing background resources (e.g., review papers, dictionary terminology)
 * Create use case documentation (how to install and run [local vs cloud] vs how to set up development environment and contribute)
 -->
 
-<p>This website documents the AFQ projects:
-&lt;!--</p>
-<h2 id="todo-based-on-my-use-case-how-do-i-know-which-project-to-use-how-do-the-projects-relateintegrate-what-are-they-capable-of-what-are-limitations-release-schedule-information">TODO: Based on my use case, how do I know which project to use? How do the projects relate/integrate? What are they capable of what are limitations? release schedule information?</h2>
-<h2 id="todo-what-is-processing-pipeline-diagram-what-are-steps-which-are-optional-what-are-tolerances-recommended-settings-for-use-cases">TODO: What is processing pipeline? diagram? what are steps? which are optional? what are tolerances (recommended settings for use cases)?</h2>
-<h2 id="todo-requirements-assumptions-dependencies-integration-interoperability-standardsspecifications">TODO: requirements? assumptions? dependencies? integration? interoperability? standards/specifications?</h2>
-<h2 id="todo-how-to-diagnose-or-debug-output-tests-confirm-validity-sanity-checks">TODO: How to diagnose or debug output? tests? confirm validity? sanity checks?</h2>
-<p>--&gt;</p>
-<p><a href="https://github.com/richford/AFQ-Insight">AFQ-Insight</a></p>
-<p><a href="https://yeatmanlab.github.io/pyAFQ/">pyAFQ</a>
-&lt;!-- </p>
-<h1 id="todo-why-afq-and-pyafq-which-should-i-choose-and-why">TODO: Why AFQ and pyAFQ? which should I choose and why?</h1>
-<p>--&gt;</p>
-<p><a href="https://yeatmanlab.github.io/AFQ-Browser/">AFQ-Browser</a></p>
-<h2 id="aims-of-these-projects">Aims of these projects</h2>
-<p>Human brain white matter contains the long-range connections between different
-brain regions. Diffusion MRI (dMRI) is a powerful imaging technology that
-provides non-invasive <em>in vivo</em> measurements of these connections. These
-measurements have provided compelling evidence that the biophysical properties
-of these connections account for individual variation in many important
-cognitive skills, and they predict clinical symptoms across a variety of
-psychiatric and neurological disorders (reviewed in [^1] and [^2]).</p>
-<p>One of the major challenges in analyzing dMRI data is that the details of the 3D
-structure of white matter anatomy varies between individuals. <em>Tractometry</em> is a
-methodology that solves this problem by identifying specific connections in each
-individual's brain, using known anatomical structures as the coordinate system
-to compare measurements across subjects. We are implementing open-source
-software for tractometry and to extract the biophysical properties of major
-brain connections. Based on this tractometry framework, we are also implementing
-novel methods for statistical learning and visualization of the features of
-white matter anatomy that lead to individual differences in the behavioral
-measurements. We will facilitate further exploration of these results and their
-integration with other datasets through web-based visualization tools. Taken
-together these projects provide a comprehensive
-<strong>data science toolbox for end-to-end analysis of dMRI data</strong>: the delineation
-of trajectories of white matter tracts within individual brains, integration of
-measurements across individuals, inferences about the role of connections in
-individual variability of their cognitive abilities and behavior, and
-exploration of the results through interactive visualizations. This is
-particularly important as the research community is developing large datasets.</p>
+<!--
+## TODO: Based on my use case, how do I know which project to use? How do the projects relate/integrate? What are they capable of what are limitations? release schedule information?
+## TODO: What is processing pipeline? diagram? what are steps? which are optional? what are tolerances (recommended settings for use cases)?
+## TODO: requirements? assumptions? dependencies? integration? interoperability? standards/specifications?
+## TODO: How to diagnose or debug output? tests? confirm validity? sanity checks?
+-->
+
 <p>[^1]: A. Rokem, H. Takemura, A. Bock, K.S. Scherf, M. Behrmann, B. A. Wandell, H. Fine, I. Bridge, and F. Pestilli. The visual white matter: The application of diffusion MRI and fiber tractography to vision science. <em>Journal of Vision</em>, 17(4):1&ndash;30, 2017. URL: <a href="https://jov.arvojournals.org/article.aspx?articleid=2603187">https://jov.arvojournals.org/article.aspx?articleid=2603187</a>.</p>
 <p>[^2]: Brian A Wandell. Clarifying human white matter. <em>Annual review of neuroscience</em>, 39:103–128, 2016. URL: <a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-neuro-070815-013815">https://www.annualreviews.org/doi/abs/10.1146/annurev-neuro-070815-013815</a>.</p>
 

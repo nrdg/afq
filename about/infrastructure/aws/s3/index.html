@@ -29,14 +29,14 @@
 <li class="divider"></li>
 <li class="chapter" data-path="">
 <a href="../../../..">Home</a>
-<li class="header">Bibliography</li>
+<li class="header">Background</li>
 
 <li>
-<a href="../../../../bibliography/diffusion-mri/" class="">Diffusion MRI</a>
+<a href="../../../../background/diffusion-mri/" class="">Diffusion MRI</a>
 </li>
 
 <li>
-<a href="../../../../bibliography/machine-learning/" class="">Machine learning</a>
+<a href="../../../../background/machine-learning/" class="">Machine learning</a>
 </li>
 
 <li class="header">About</li>
@@ -51,6 +51,14 @@
 
 <li>
 <a href="../../../related/" class="">Related projects</a>
+</li>
+
+<li>
+<a href="../../../projects/" class="">Our projects</a>
+</li>
+
+<li>
+<a href="../../../team/" class="">Team and collaborators</a>
 </li>
 
 <li>
@@ -138,39 +146,39 @@ format on your local hard-drive. This will look something like this:</p>
 |      ├-derivatives
 |            ├-&lt;pipeline&gt;
 |                ├── sub01
-|                │   ├── sess01
+|                │   ├── ses01
 |                │   │   ├── anat
-|                │   │   │   ├── sub-01_sess-01_aparc+aseg.nii.gz
-|                │   │   │   └── sub-01_sess-01_T1.nii.gz
+|                │   │   │   ├── sub-01_ses-01_aparc+aseg.nii.gz
+|                │   │   │   └── sub-01_ses-01_T1.nii.gz
 |                │   │   └── dwi
-|                │   │       ├── sub-01_sess-01_dwi.bvals
-|                │   │       ├── sub-01_sess-01_dwi.bvecs
-|                │   │       └── sub-01_sess-01_dwi.nii.gz
-|                │   └── sess02
+|                │   │       ├── sub-01_ses-01_dwi.bvals
+|                │   │       ├── sub-01_ses-01_dwi.bvecs
+|                │   │       └── sub-01_ses-01_dwi.nii.gz
+|                │   └── ses02
 |                │       ├── anat
-|                │       │   ├── sub-01_sess-02_aparc+aseg.nii.gz
-|                │       │   └── sub-01_sess-02_T1w.nii.gz
+|                │       │   ├── sub-01_ses-02_aparc+aseg.nii.gz
+|                │       │   └── sub-01_ses-02_T1w.nii.gz
 |                │       └── dwi
-|                │           ├── sub-01_sess-02_dwi.bvals
-|                │           ├── sub-01_sess-02_dwi.bvecs
-|                │           └── sub-01_sess-02_dwi.nii.gz
+|                │           ├── sub-01_ses-02_dwi.bvals
+|                │           ├── sub-01_ses-02_dwi.bvecs
+|                │           └── sub-01_ses-02_dwi.nii.gz
 |                └── sub02
-|                   ├── sess01
+|                   ├── ses01
 |                   │   ├── anat
-|                   │       ├── sub-02_sess-01_aparc+aseg.nii.gz
-|                   │   │   └── sub-02_sess-01_T1w.nii.gz
+|                   │       ├── sub-02_ses-01_aparc+aseg.nii.gz
+|                   │   │   └── sub-02_ses-01_T1w.nii.gz
 |                   │   └── dwi
-|                   │       ├── sub-02_sess-01_dwi.bvals
-|                   │       ├── sub-02_sess-01_dwi.bvecs
-|                   │       └── sub-02_sess-01_dwi.nii.gz
-|                   └── sess02
+|                   │       ├── sub-02_ses-01_dwi.bvals
+|                   │       ├── sub-02_ses-01_dwi.bvecs
+|                   │       └── sub-02_ses-01_dwi.nii.gz
+|                   └── ses02
 |                       ├── anat
-|                       │   ├── sub-02_sess-02_aparc+aseg.nii.gz
-|                       │   └── sub-02_sess-02_T1w.nii.gz
+|                       │   ├── sub-02_ses-02_aparc+aseg.nii.gz
+|                       │   └── sub-02_ses-02_T1w.nii.gz
 |                       └── dwi
-|                           ├── sub-02_sess-02_dwi.bvals
-|                           ├── sub-02_sess-02_dwi.bvecs
-|                           └── sub-02_sess-02_dwi.nii.gz
+|                           ├── sub-02_ses-02_dwi.bvals
+|                           ├── sub-02_ses-02_dwi.bvecs
+|                           └── sub-02_ses-02_dwi.nii.gz
 </code></pre>
 <p>Where <code>study</code> will be the name of the study and will also be the name we will
 use for the bucket on S3. Instead of <code>pipeline</code> use a name of the preprocessing
