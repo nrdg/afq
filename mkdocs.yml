@@ -15,6 +15,7 @@ nav:
       - 'Installing Python packages': 'about/infrastructure/installing_python_packages.md'
       - AWS:
         - 'Getting started': 'about/infrastructure/aws/getting_started.md'
+        - 'Guidelines for our projects': 'about/infrastructure/aws/how_to_use.md'
         - 'Simple Storage Service': 'about/infrastructure/aws/s3.md'
 theme: gitbook
 plugins:
