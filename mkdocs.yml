@@ -4,6 +4,7 @@ nav:
 - Background:
     - 'Diffusion MRI': 'background/diffusion-mri.md'
     - 'Machine learning': 'background/machine-learning.md'
+    - 'Datasets': 'background/datasets.md'
 - About:
     - 'License': 'about/license.md'
     - 'Funding sources': 'about/funding.md'
