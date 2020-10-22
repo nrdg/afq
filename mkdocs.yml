@@ -8,10 +8,9 @@ nav:
 - About:
     - 'License': 'about/license.md'
     - 'Funding sources': 'about/funding.md'
-    - 'Related projects' : 'about/related.md'
-    - 'Our projects' : 'about/projects.md'
+    - 'Related projects': 'about/related.md'
+    - 'Our projects': 'about/projects.md'
     - 'Example: RecoBundles 80-bundle segmentation': 'about/example_recobundles_80_hcp.md'
-    - 'Example: streamline density plot': 'about/example_frontal_callosum_density.md'
     - 'Team and collaborators' : 'about/team.md'
     - Infrastructure:
       - 'Jupyterhub': 'about/infrastructure/jupyterhub.md'
