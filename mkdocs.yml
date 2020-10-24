@@ -4,11 +4,13 @@ nav:
 - Background:
     - 'Diffusion MRI': 'background/diffusion-mri.md'
     - 'Machine learning': 'background/machine-learning.md'
+    - 'Datasets': 'background/datasets.md'
 - About:
     - 'License': 'about/license.md'
     - 'Funding sources': 'about/funding.md'
-    - 'Related projects' : 'about/related.md'
-    - 'Our projects' : 'about/projects.md'
+    - 'Related projects': 'about/related.md'
+    - 'Our projects': 'about/projects.md'
+    - 'Example: RecoBundles 80-bundle segmentation': 'about/example_recobundles_80_hcp.md'
     - 'Team and collaborators' : 'about/team.md'
     - Infrastructure:
       - 'Jupyterhub': 'about/infrastructure/jupyterhub.md'
