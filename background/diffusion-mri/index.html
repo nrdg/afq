@@ -141,36 +141,37 @@ Theme by GitBook
 <h2 id="here-are-some-readings-to-introduce-the-field">Here are some readings to introduce the field</h2>
 <p><strong>A great overview of the field:</strong></p>
 <blockquote>
-<p>Wandell BA (2016) Clarifying Human White Matter. Annu Rev Neurosci 39(1):annurev-neuro-070815-013815.</p>
+<p><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-neuro-070815-013815">Wandell BA (2016) Clarifying Human White Matter. Annu Rev Neurosci 39(1):annurev-neuro-070815-013815.</a></p>
 </blockquote>
 <p><strong>Review paper on fiber tractography methods:</strong></p>
 <blockquote>
-<p>Jeurissen B, Descoteaux M, Mori S, Leemans A (2019) Diffusion MRI fiber tractography of the brain. NMR Biomed 32(4):1–22.</p>
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/28945294/">Jeurissen B, Descoteaux M, Mori S, Leemans A (2019) Diffusion MRI fiber tractography of the brain. NMR Biomed 32(4):1–22.</a></p>
 </blockquote>
 <p><strong>Two papers from our group focused on using diffusion MRI to study brain development and plasticity:</strong></p>
 <blockquote>
-<p>Huber E, Donnelly PM, Rokem A, Yeatman JD (2018) Rapid and widespread white matter plasticity during an intensive reading intervention. Nat Commun 9(1):2260.</p>
-<p>Huber E, Henriques RN, Owen JP, Rokem A, Yeatman JD (2019) Applying microstructural models to understand the role of white matter in cognitive development. Dev Cogn Neurosci 36(February):100624.</p>
+<p><a href="https://www.nature.com/articles/s41467-018-04627-5">Huber E, Donnelly PM, Rokem A, Yeatman JD (2018) Rapid and widespread white matter plasticity during an intensive reading intervention. Nat Commun 9(1):2260.</a></p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S1878929318301348">Huber E, Henriques RN, Owen JP, Rokem A, Yeatman JD (2019) Applying microstructural models to understand the role of white matter in cognitive development. Dev Cogn Neurosci 36(February):100624.</a></p>
 </blockquote>
 <p><strong>There are so many tractography algorithms. Which one is the best?</strong>
 There is no simple answer to this question: it depends on your goals, the data acquisition as well as the subjects being studied. For example, many of the cutting-edge algorithms depend on collecting many diffusion directions across multiple b-values and this often isn't feasible in clinical studies or pediatric studies. Understanding the tradeoffs between different algorithms is important. Recent work by Girard and colleagues [^1] compared the compendium of tractography algorithms implemented in mrtrix and DIPY to "gold-standard" tracer studies done in rhesus macaque monkey. This recent paper provides a thoughtful description of how to think about gold standards and how to evaluate the tradeoffs between different algorithms. They conclude that many tractography algorithms are quite good in terms of sensitivity/specificity and provide useful guidance in distinguishing between different algorithms.</p>
 <blockquote>
-<p>Girard, Gabriel, Roberto Caminiti, Alexandra Battaglia-Mayer, Etienne St-Onge, Karen S. Ambrosen, Simon F. Eskildsen, Kristine Krug, et al. 2020. “On the Cortical Connectivity in the Macaque Brain: A Comparison of Diffusion Tractography and Histological Tracing Data.” NeuroImage 221 (July): 117201.</p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S105381192030687X">Girard, Gabriel, Roberto Caminiti, Alexandra Battaglia-Mayer, Etienne St-Onge, Karen S. Ambrosen, Simon F. Eskildsen, Kristine Krug, et al. 2020. “On the Cortical Connectivity in the Macaque Brain: A Comparison of Diffusion Tractography and Histological Tracing Data.” NeuroImage 221 (July): 117201.</a></p>
 </blockquote>
 <h2 id="tractometry-automated-fiber-quantification-afq">TRACTOMETRY - Automated Fiber Quantification (AFQ)</h2>
 <p>Tractometry refers to methods for analzying properties of the brain's major white matter connections. Automated Fiber Quantification (AFQ) is a tractometry toolbox we developed for analyzing white matter tracts in individuals and groups. There is a MATLAB and a Python version of AFQ.</p>
 <p><strong>Here is the paper that introducued the method:</strong></p>
-<pre><code>Yeatman JD, Dougherty RF, Myall NJ, Wandell BA, Feldman HMM (2012) Tract profiles of white matter properties: automating fiber-tract quantification. PLoS One 7(11):e49790.
-</code></pre>
+<blockquote>
+<p><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0049790">Yeatman JD, Dougherty RF, Myall NJ, Wandell BA, Feldman HMM (2012) Tract profiles of white matter properties: automating fiber-tract quantification. PLoS One 7(11):e49790.</a></p>
+</blockquote>
 <p>And here is a more recent paper introducing a browser-based visualization and analysis tool to support reproducibility and data sharing</p>
 <blockquote>
-<p>Yeatman JD, Richie-Halford A, Smith JK, Keshavan A, Rokem A (2018) A browser-based tool for visualization and analysis of diffusion MRI data. Nat Commun 9(1):940.</p>
+<p><a href="https://www.nature.com/articles/s41467-018-03297-7">Yeatman JD, Richie-Halford A, Smith JK, Keshavan A, Rokem A (2018) A browser-based tool for visualization and analysis of diffusion MRI data. Nat Commun 9(1):940.</a></p>
 </blockquote>
 <h2 id="blogs-and-tutorials">Blogs and tutorials</h2>
 <p>The OHBM has a blog with videos based on the educational course given at the
 annual meeting <a href="https://www.ohbmbrainmappingblog.com/blog/ohbm-ondemand-how-to-diffusion-mri">here</a>.</p>
 <p>Here is a tutorial walking through the basics of diffusion MRI
-https://www.imagilys.com/diffusion-tensor-imaging-dti/</p>
+<a href="https://www.imagilys.com/diffusion-tensor-imaging-dti/">https://www.imagilys.com/diffusion-tensor-imaging-dti/</a></p>
 <h1 id="software-tutorials-to-learn-how-to-analyze-diffusion-mri-data">Software tutorials to learn how to analyze diffusion MRI data</h1>
 <h2 id="afq-matlab">AFQ (MATLAB)</h2>
 <p>The original matlab version of AFQ comes with tutorials and example data.</p>
